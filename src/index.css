@@ -1,0 +1,65 @@
+.am-tab-bar{
+	position:fixed;
+	bottom:0;
+	width:100%;
+	overflow: hidden;
+	height:auto;
+}
+.fixd-header .am-navbar{
+	position:fixed;
+	top:0;
+	width:100%;
+}
+.page-content{
+	padding:45px 5px;
+}
+
+.am-card-header-content img{
+	width:50%;
+}
+.am-result-pic img{
+	width:100%;
+}
+/*#tab-bar.demo {
+  display: flex;
+  flex-direction: column;
+}
+#tab-bar .demoName {
+  height: 40px;
+}
+#tab-bar .demo-preview-item .am-tab-bar {
+  background-color: white;
+}*/
+
+#chat-page .chat-me .am-list-extra{
+	flex-basis:auto;
+}
+#chat-page .chat-me .am-list-content{
+	padding-right:15px;
+	text-align:right;
+}
+#chat-page .am-grid-icon{
+	display:none; 
+}
+#chat-page .am-grid-text{
+	margin-top:0;
+	font-size: 25px;
+}
+.stick-footer{
+	z-index:10;
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+.am-list-item .am-input-extra{
+	max-height:30px; 
+}
+
+.am-list-item .am-list-thumb img{
+	width:30px;
+	height:30px;
+}
+
+.am-list-line .am-badge-text{
+	margin-bottom:3px;
+}
